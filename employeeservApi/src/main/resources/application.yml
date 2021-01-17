@@ -1,0 +1,28 @@
+spring:
+  profiles.active: local
+  jpa:
+    show-sql: true
+    properties.hibernate.format_sql: true
+
+---
+spring:
+  profiles: local
+  jpa.database-platform: org.hibernate.dialect.H2Dialect
+  h2.console.enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+#    url: jdbc:h2:file:C:\Downloads\employeeserv-master\employeeservImplementation\src\main\resources\testdb
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+---
+spring:
+  profiles: dev1
+  jpa.database-platform: org.hibernate.dialect.[###]
+  datasource:
+    url: xxx
+    username: xxx
+    password: xxx
+    driver-class-name: xxx
+---
