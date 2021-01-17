@@ -38,15 +38,15 @@ Thank you very much for your time to take this test. Please upload this complete
 
 
 ## Candidate Notes
--Swagger endpoints: http://localhost:8080/swagger-ui.html
--Two tests implemented for functional tests- EmployeeAPIIntegrationTest.java
--Couple of tests implemented for unit tests
+- Swagger endpoints: http://localhost:8080/swagger-ui.html
+- Two tests implemented for functional tests- EmployeeAPIIntegrationTest.java
+- Couple of tests implemented for unit tests
 
 ## Enhancement(recommendations)
--Comprehensive unit tests with negative test
--Comprehensive functional tests
--Complete Swagger Documentation for API
--Complete Code documentation
--Comprehensive validation for email id, date of birth, city, state, country and zipcode.
--Improve code coverage using Mockito or powerMock
+- Comprehensive unit tests with negative test
+- Comprehensive functional tests
+- Complete Swagger Documentation for API
+- Complete Code documentation
+- Comprehensive validation for email id, date of birth, city, state, country and zipcode.
+- Improve code coverage using Mockito or powerMock
 
